@@ -1,0 +1,996 @@
+[
+    {
+        "sport": "Men's Basketball",
+        "date": "Jan 24",
+        "time": "8:00 pm",
+        "isHomeGame": true,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Jan 28",
+        "time": "7:30 pm",
+        "isHomeGame": false,
+        "opponent": "Texas A&M"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Jan 31",
+        "time": "7:30 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 4",
+        "time": "12:00 pm",
+        "isHomeGame": true,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 8",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 11",
+        "time": "2:30 pm",
+        "isHomeGame": false,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 14",
+        "time": "5:30 pm",
+        "isHomeGame": false,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 18",
+        "time": "7:30 pm",
+        "isHomeGame": true,
+        "opponent": "Auburn"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 22",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "LSU"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Feb 25",
+        "time": "5:00 pm",
+        "isHomeGame": true,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Mar 1",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Men's Basketball",
+        "date": "Mar 4",
+        "time": "7:30 pm",
+        "isHomeGame": true,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 17",
+        "time": "3:00 pm",
+        "isHomeGame": false,
+        "opponent": "TCU"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 18",
+        "time": "11:00 am",
+        "isHomeGame": false,
+        "opponent": "Oklahoma State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 19",
+        "time": "10:30 am",
+        "isHomeGame": false,
+        "opponent": "Texas"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 21",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Central Arkansas"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 22",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "UAB"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 24",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "UCLA"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 25",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "UCLA"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 26",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "UCLA"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Feb 28",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Austin Peay"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 3",
+        "time": "11:00 am",
+        "isHomeGame": false,
+        "opponent": "Nebraska"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 4",
+        "time": "11:00 am",
+        "isHomeGame": false,
+        "opponent": "Maryland"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 5",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Minnesota"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 7",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Tennessee Tech"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 8",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Evansville"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 10",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Loyola Marymount"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 11",
+        "time": "2:00 pm",
+        "isHomeGame": false,
+        "opponent": "Loyola Marymount"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 12",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "Loyola Marymount"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 14",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Belmont"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 16",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 17",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 18",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 21",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Lipscomb"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 24",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 25",
+        "time": "2:00 pm",
+        "isHomeGame": false,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 26",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Mar 31",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 1",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 2",
+        "time": "1:00 pm",
+        "isHomeGame": true,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 4",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Western Kentucky"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 6",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Missouri"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 7",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Missouri"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 8",
+        "time": "2:00 pm",
+        "isHomeGame": false,
+        "opponent": "Missouri"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 11",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "North Alabama"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 14",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 15",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 16",
+        "time": "1:00 pm",
+        "isHomeGame": true,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 18",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Indiana State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 21",
+        "time": "5:00 pm",
+        "isHomeGame": false,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 22",
+        "time": "11:00 am",
+        "isHomeGame": false,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 23",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 28",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 29",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Baseball",
+        "date": "Apr 30",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 2",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Georgia State"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 4",
+        "time": "7:00 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 5",
+        "time": "7:00 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 6",
+        "time": "2:00 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 9",
+        "time": "5:00 pm",
+        "isHomeGame": false,
+        "opponent": "Louisville"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 12",
+        "time": "4:30 pm",
+        "isHomeGame": false,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 13",
+        "time": "5:30 pm",
+        "isHomeGame": false,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 14",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 16",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Middle Tennessee"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 18",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 19",
+        "time": "6:00 pm",
+        "isHomeGame": true,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 20",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Baseball",
+        "date": "May 23",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Tournament"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Jan 28",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Jan 28",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "Little Rock"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Feb 14",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Feb 15",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Feb 16",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Feb 17",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Feb 18",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 9",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "CSCAA National Invitational"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 10",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "CSCAA National Invitational"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 11",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "CSCAA National Invitational"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 15",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 16",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 17",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Championships"
+    },
+    {
+        "sport": "Swimming",
+        "date": "Mar 18",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Championships"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Jan 29",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Texas A&M"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 2",
+        "time": "8:00 pm",
+        "isHomeGame": false,
+        "opponent": "Missouri"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 5",
+        "time": "12:00 pm",
+        "isHomeGame": true,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 9",
+        "time": "8:00 pm",
+        "isHomeGame": false,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 12",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 16",
+        "time": "6:00 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 19",
+        "time": "2:00 pm",
+        "isHomeGame": false,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 23",
+        "time": "6:30 pm",
+        "isHomeGame": false,
+        "opponent": "LSU"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Feb 26",
+        "time": "3:00 pm",
+        "isHomeGame": false,
+        "opponent": "Auburn"
+    },
+    {
+        "sport": "Women's Basketball",
+        "date": "Mar 1",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Women’s Basketball Tournament"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Jan 28",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "USC"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Jan 29",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Memphis/UCLA"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 4",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "Princeton"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 4",
+        "time": "3:30 pm",
+        "isHomeGame": true,
+        "opponent": "Tennessee State"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 12",
+        "time": "12:00 pm",
+        "isHomeGame": true,
+        "opponent": "Rice"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 18",
+        "time": "12:00 pm",
+        "isHomeGame": true,
+        "opponent": "Florida Atlantic"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 19",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "Oklahoma State"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 19",
+        "time": "3:30 pm",
+        "isHomeGame": true,
+        "opponent": "Belmont"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Feb 26",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Northwestern"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 2",
+        "time": "4:00 pm",
+        "isHomeGame": true,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 4",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 4",
+        "time": "3:30 pm",
+        "isHomeGame": true,
+        "opponent": "Alabama A&M"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 9",
+        "time": "3:00 pm",
+        "isHomeGame": false,
+        "opponent": "Tennesse"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 11",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 18",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 18",
+        "time": "3:30 pm",
+        "isHomeGame": true,
+        "opponent": "Butler"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 24",
+        "time": "4:00 pm",
+        "isHomeGame": true,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 26",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Mar 31",
+        "time": "4:00 pm",
+        "isHomeGame": false,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Apr 2",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Auburn"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Apr 7",
+        "time": "4:00 pm",
+        "isHomeGame": true,
+        "opponent": "Texas A&M"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Apr 9",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Apr 16",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "LSU"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "Apr 19",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Tournament"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "May 5",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "at NCAA Regional"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "May 12",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "at NCAA Super Regional"
+    },
+    {
+        "sport": "Men's Tennis",
+        "date": "May 17",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "at NCAA Championships"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Jan 28",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "Furman"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Jan 29",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NC State or Illinois"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Feb 3",
+        "time": "3:00 pm",
+        "isHomeGame": true,
+        "opponent": "Louisville"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Feb 10",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "National Team Indoors"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Feb 17",
+        "time": "3:00 pm",
+        "isHomeGame": true,
+        "opponent": "UCF"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Feb 26",
+        "time": "1:00 pm",
+        "isHomeGame": true,
+        "opponent": "Middle Tennessee"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 3",
+        "time": "3:00 pm",
+        "isHomeGame": false,
+        "opponent": "Ole Miss"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 5",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "Mississippi State"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 10",
+        "time": "3:00 pm",
+        "isHomeGame": true,
+        "opponent": "Tennessee"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 12",
+        "time": "1:00 pm",
+        "isHomeGame": true,
+        "opponent": "Georgia"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 17",
+        "time": "5:00 pm",
+        "isHomeGame": false,
+        "opponent": "Florida"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 19",
+        "time": "1:00 pm",
+        "isHomeGame": false,
+        "opponent": "South Carolina"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 24",
+        "time": "4:00 pm",
+        "isHomeGame": false,
+        "opponent": "Arkansas"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 26",
+        "time": "10:00 am",
+        "isHomeGame": false,
+        "opponent": "Missouri"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Mar 31",
+        "time": "4:00 pm",
+        "isHomeGame": true,
+        "opponent": "Alabama"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Apr 2",
+        "time": "1:00 pm",
+        "isHomeGame": true,
+        "opponent": "Auburn"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Apr 8",
+        "time": "12:00 pm",
+        "isHomeGame": true,
+        "opponent": "Kentucky"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Apr 14",
+        "time": "2:00 pm",
+        "isHomeGame": true,
+        "opponent": "LSU"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Apr 16",
+        "time": "11:00 am",
+        "isHomeGame": true,
+        "opponent": "Texas A&M"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "Apr 19",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "SEC Tournament"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "May 5",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Regionals"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "May 12",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Super Regionals"
+    },
+    {
+        "sport": "Women's Tennis",
+        "date": "May 18",
+        "time": "12:00 pm",
+        "isHomeGame": false,
+        "opponent": "NCAA Final Eight/Individuals"
+    }
+]
