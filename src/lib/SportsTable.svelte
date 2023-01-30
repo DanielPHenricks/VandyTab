@@ -3,6 +3,7 @@
     const time = new Date();
     const date = time.getDate();
     const month = time.getMonth() + 1;
+    const hours = time.getHours();
     const monthToDigit = {
         "Jan ": 1,
         "Feb ": 2,
@@ -11,7 +12,7 @@
         "May ": 5,
     };
 
-    const compareTimes = (a, b) => {
+    const compareTimes = (/** @type {string} */ a, /** @type {string} */ b) => {
         let aTime = a.indexOf("PM") ? 12 : 0;
         let bTime = b.indexOf("PM") ? 12 : 0;
         aTime += parseInt(a.substring(0, a.indexOf(":")));
@@ -19,16 +20,27 @@
         return aTime % 12 <= bTime % 12 ? -1 : 1;
     };
 
-    games.sort(function (a, b) {
+    games.sort((a, b) => {
         const firstDate =
-            "" + monthToDigit[a.date.substr(0, 4)] + a.date.substr(4, 2);
+            "" +
+            monthToDigit[a.date.substr(0, 4)] +
+            a.date.substr(4, a.date.length - 4).padStart(2, "0");
         const secondDate =
-            "" + monthToDigit[b.date.substr(0, 4)] + b.date.substr(4, 2);
+            "" +
+            monthToDigit[b.date.substr(0, 4)] +
+            b.date.substr(4, b.date.length - 4).padStart(2, "0");
         return firstDate == secondDate
             ? compareTimes(a.time, b.time)
             : firstDate > secondDate
             ? 1
             : -1;
+    });
+    // the filter method does not change the original json
+    let filteredGames = games.filter((game) => {
+        return !(
+            monthToDigit[game.date.substr(0, 4)] <= month &&
+            parseInt(game.date.substring(4, game.date.length)) < date
+        );
     });
 </script>
 
@@ -54,7 +66,7 @@
             <td><b>Time</b></td>
             <td><b>Opponent</b></td>
         </tr>
-        {#each games as game}
+        {#each filteredGames as game}
             <tr>
                 <td>{game.date}</td>
                 <td>{game.time}</td>
