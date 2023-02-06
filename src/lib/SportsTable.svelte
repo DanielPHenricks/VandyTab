@@ -38,8 +38,9 @@
     // the filter method does not change the original json
     let filteredGames = games.filter((game) => {
         return !(
-            monthToDigit[game.date.substr(0, 4)] <= month &&
-            parseInt(game.date.substring(4, game.date.length)) < date
+            monthToDigit[game.date.substr(0, 4)] < month ||
+            (monthToDigit[game.date.substr(0, 4)] == month &&
+                parseInt(game.date.substring(4, game.date.length)) < date)
         );
     });
 </script>
