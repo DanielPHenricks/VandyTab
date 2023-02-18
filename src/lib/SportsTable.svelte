@@ -1,5 +1,6 @@
 <script>
     import games from "../games.json";
+    import ButtonModal from "./ButtonModal.svelte";
     const time = new Date();
     const date = time.getDate();
     const month = time.getMonth() + 1;
@@ -11,6 +12,15 @@
         "Apr ": 4,
         "May ": 5,
     };
+
+    const sportsTypes = [
+        "Men's Basketball",
+        "Baseball",
+        "Swimming",
+        "Women's Basketball",
+        "Men's Tennis",
+        "Women's Tennis",
+    ];
 
     const compareTimes = (/** @type {string} */ a, /** @type {string} */ b) => {
         let aTime = a.indexOf("PM") ? 12 : 0;
@@ -35,8 +45,20 @@
             ? 1
             : -1;
     });
+
+    const prefs = localStorage.getItem("prefs");
+    const parsed = prefs != undefined ? JSON.parse(prefs) : undefined;
     // the filter method does not change the original json
     let filteredGames = games.filter((game) => {
+        if (parsed != undefined) {
+            return !(
+                monthToDigit[game.date.substr(0, 4)] < month ||
+                (monthToDigit[game.date.substr(0, 4)] == month &&
+                    parseInt(game.date.substring(4, game.date.length)) <
+                        date) ||
+                parsed.indexOf(game.sport) == -1
+            );
+        }
         return !(
             monthToDigit[game.date.substr(0, 4)] < month ||
             (monthToDigit[game.date.substr(0, 4)] == month &&
@@ -57,7 +79,9 @@
                     alt="Sports"
                 /> Sports
             </th>
-            <th scope="col" class="rounded-q1" />
+            <th scope="col" class="rounded-q1">
+                <ButtonModal buttonTopics={sportsTypes} />
+            </th>
         </tr>
     </thead>
 
