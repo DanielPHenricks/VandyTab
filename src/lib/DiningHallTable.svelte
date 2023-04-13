@@ -1,5 +1,6 @@
 <script>
     import dininghalls from "../dininghalls.json";
+    import FoodModal from "./FoodModal.svelte";
     const date = new Date();
     const day = date.getDay();
     const hour = date.getHours();
@@ -10,6 +11,24 @@
         open = hour >= hall.openHour[day] && hour < hall.closedHour[day];
         return open ? `../images/open.png` : `../images/closed.png`;
     };
+    const diningHallNames = [
+        "The Commons",
+        "Rothschild",
+        "EBI",
+        "Rand",
+        "Zeppos",
+        "Kissam",
+    ];
+
+    const prefs = localStorage.getItem("foodPrefs");
+    console.log(prefs);
+    const parsed = prefs == undefined ? undefined : JSON.parse(prefs);
+    let filteredDiningHalls =
+        parsed == undefined
+            ? dininghalls
+            : dininghalls.filter((dininghall) => {
+                  return parsed.includes(dininghall.name);
+              });
 </script>
 
 <!-- This component is for the table containing upcoming schedules. -->
@@ -25,12 +44,14 @@
                     alt="Food"
                 /> Food
             </th>
-            <th scope="col" class="rounded-q4" />
+            <th scope="col" class="rounded-q1">
+                <FoodModal buttonTopics={diningHallNames} />
+            </th>
         </tr>
     </thead>
 
     <tbody id="table">
-        {#each dininghalls as hall}
+        {#each filteredDiningHalls as hall}
             <tr>
                 <td><img id="open1" src={isOpen(hall)} alt="img" /></td>
                 <td>{hall.name}</td>
