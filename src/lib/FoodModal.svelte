@@ -51,6 +51,9 @@
         hasSavedPrefs = false;
         localStorage.removeItem("foodPrefs");
     };
+
+    // This function will filter and remove any closed dining halls
+    const getOpenDiningHalls = () => {};
 </script>
 
 <button on:click={() => loadModal()}
@@ -61,6 +64,11 @@
     <div class="modal-overlay">
         <div class="modal-content dark-mode">
             <h3>{modalTitle}</h3>
+            <button
+                class="btn btn-primary m-3"
+                on:click={() => getOpenDiningHalls()}
+                >Open Dining Halls Only</button
+            >
             <form id="buttonForm">
                 <div class="text-left">
                     {#each getTopics() as topic}
@@ -73,8 +81,7 @@
                         <label
                             class="form-check-label"
                             for="defaultCheck{topic}"
-                        >
-                            {topic}
+                            >{topic}
                         </label>
                         <br />
                     {/each}
