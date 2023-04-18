@@ -1,52 +1,31 @@
-<!-- This component is a greeting displayed below the clock.
-Todo: style the input and button. -->
+<!-- 
+  This component is a greeting displayed below the clock. 
+  Last changed: 4/17/23
+-->
+
 <script>
   // @ts-nocheck
-
-  import { spring } from "svelte/motion";
   let time = new Date();
   let hours = time.getHours();
   let name = localStorage.name;
   let phrase;
-  let show = name == null;
-  let isSeen = spring(0);
-  $: isSeen.set(show ? 1 : 0); //like a true or false value, with 0 being falsy
   const setPhrase = () => {
-    let defaultGreeting = "Please enter your name.";
-    if (name == null) {
-      phrase = defaultGreeting;
+    phrase = "Good ";
+    if (hours >= 6 && hours <= 12) {
+      phrase += "morning, ";
+    } else if (hours <= 18) {
+      phrase += "afternoon, ";
     } else {
-      phrase = "Good ";
-      if (hours >= 6 && hours <= 12) {
-        phrase += "morning, ";
-      } else if (hours <= 18) {
-        phrase += "afternoon, ";
-      } else {
-        phrase += "evening, ";
-      }
-      phrase += name;
-      show = false;
+      phrase += "evening, ";
     }
+    phrase += name;
   };
   setPhrase();
-  const setName = () => {
-    name = document.getElementById("nameInput").value;
-    localStorage.name = name;
-    setPhrase();
-  };
 </script>
 
 <div id="container">
   <div id="greeting">
     <p>{phrase}</p>
-    <div style="max-height: 1vh">
-      <input type="text" id="nameInput" style="opacity: {$isSeen};" />
-      <button
-        style="opacity: {$isSeen}"
-        id="submitButton"
-        on:click={() => setName()}>Save name</button
-      >
-    </div>
   </div>
 </div>
 
