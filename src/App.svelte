@@ -5,7 +5,7 @@
   import Greeting from "./lib/Greeting.svelte";
   import Tables from "./lib/Tables.svelte";
   import Setup from "./lib/Setup.svelte";
-  const numImages = 3;
+  const numImages = 7;
   let image = Math.ceil(Math.random() * numImages);
 
   // Set up preferences
@@ -21,8 +21,8 @@
 </script>
 
 <html lang="en-us">
-  <Clock />
   {#if !showSetup}
+    <Clock />
     <Greeting />
     <ButtonGroup />
     <Tables />

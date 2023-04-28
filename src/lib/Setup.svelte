@@ -1,6 +1,6 @@
 <!-- 
     This component contains the declaration for the setup of prefs for the extension. 
-    Last changed: 4/17/23
+    Last changed: 4/28/23
 -->
 
 <script>
@@ -12,8 +12,16 @@
         "Zeppos",
         "Kissam",
     ];
-
+    const sportsTypes = [
+        "Men's Basketball",
+        "Baseball",
+        "Swimming",
+        "Women's Basketball",
+        "Men's Tennis",
+        "Women's Tennis",
+    ];
     const setName = () => {
+        // @ts-ignore
         let name = document.getElementById("nameInput").value;
         localStorage.name = name;
         getCheckedBoxes();
@@ -22,14 +30,24 @@
 
     const getCheckedBoxes = () => {
         const form = document.querySelector("#buttonForm");
-        const checked = form.querySelectorAll('input[type="checkbox"]:checked');
+        let checked = form.querySelectorAll('input[type="checkbox"]:checked');
         let labels = [];
         checked.forEach((box) => {
             const label = form.querySelector('label[for="' + box.id + '"]');
             labels.push(label.innerHTML);
         });
-        const string = JSON.stringify(labels);
+        let string = JSON.stringify(labels);
         localStorage.setItem("foodPrefs", string);
+
+        const sports = document.querySelector("#sportsButtonForm");
+        checked = sports.querySelectorAll('input[type="checkbox"]:checked');
+        labels = [];
+        checked.forEach((box) => {
+            const label = sports.querySelector('label[for="' + box.id + '"]');
+            labels.push(label.innerHTML);
+        });
+        string = JSON.stringify(labels);
+        localStorage.setItem("prefs", string);
     };
 </script>
 
@@ -57,7 +75,30 @@
                                     />
                                     <label
                                         class="form-check-label"
+                                        id="black-text"
                                         for="defaultCheck{topic}"
+                                        >{topic}
+                                    </label>
+                                    <br />
+                                {/each}
+                            </div>
+                        </form>
+                        <h4 id="black-text">
+                            Select sports you want to follow:
+                        </h4>
+                        <form id="sportsButtonForm">
+                            <div class="text-left">
+                                {#each sportsTypes as topic}
+                                    <input
+                                        class="form-check-input mt-2"
+                                        type="checkbox"
+                                        value=""
+                                        id="sportsDefaultCheck{topic}"
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        id="black-text"
+                                        for="sportsDefaultCheck{topic}"
                                         >{topic}
                                     </label>
                                     <br />
@@ -96,6 +137,6 @@
     }
     #black-text {
         color: black;
-        text-shadow: 0 2px 3px rgba(255, 255, 255, 0.9);
+        text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.9);
     }
 </style>

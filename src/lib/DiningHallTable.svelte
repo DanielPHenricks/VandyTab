@@ -21,7 +21,6 @@
     ];
 
     const prefs = localStorage.getItem("foodPrefs");
-    console.log(prefs);
     const parsed = prefs == undefined ? undefined : JSON.parse(prefs);
     let filteredDiningHalls =
         parsed == undefined
